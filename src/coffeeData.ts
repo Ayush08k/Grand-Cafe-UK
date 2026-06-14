@@ -122,7 +122,7 @@ export const OTHER_DRINKS: CoffeeItem[] = [
   }
 ];
 
-export const HERO_IMAGE_PATH = '/src/assets/images/hero_cappuccino_1781424103983.jpg';
+export const HERO_IMAGE_PATH = '/src/assets/images/hero_section.jpg';
 export const CAFE_INTERIOR_PATH = '/src/assets/images/london_cafe_interior_1781424893863.jpg';
 export const CLUB_SANDWICH_PATH = '/src/assets/images/club_sandwich_1781424911820.jpg';
 export const ENGLISH_BREAKFAST_PATH = '/src/assets/images/english_breakfast_1781424876985.jpg';
