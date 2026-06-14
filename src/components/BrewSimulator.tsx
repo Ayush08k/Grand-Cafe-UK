@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { CupSoda, Trash2, Check, Sparkles } from 'lucide-react';
 import { CartItem } from '../types';
+import { CAPPUCCINO_CUP_PATH } from '../coffeeData';
 
 interface BrewSimulatorProps {
   onAddCustomCartItem: (item: CartItem) => void;
@@ -111,7 +112,7 @@ export default function BrewSimulator({ onAddCustomCartItem }: BrewSimulatorProp
       milk: 'whole',
       syrup: 'none',
       extraShot: false,
-      image: '/src/assets/images/cappuccino_cup_1781424158560.jpg' // Reuses image structure
+      image: CAPPUCCINO_CUP_PATH
     };
 
     onAddCustomCartItem(customCartItem);
