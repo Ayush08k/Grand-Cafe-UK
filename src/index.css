@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Playfair Display", serif;
+  
+  /* Premium Coffee Golden-Brown Color Palette */
+  --color-coffee-black: #0D0A08; /* Deep rich brown-black */
+  --color-coffee-dark: #15100E; /* Dark espresso */
+  --color-coffee-card: #1E1714; /* Card background */
+  --color-coffee-border: #2C211B; /* Soft organic borders */
+  --color-coffee-accent: #C89D7C; /* Elegant gold accent */
+  --color-coffee-gold: #E5B288; /* Bright gold highlight */
+  --color-coffee-cream: #EADCC9; /* Soft cream text */
+  --color-coffee-white: #F7F4F0; /* Clean ivory text */
+  --color-coffee-muted: #9C897E; /* Soft muted text color */
+}
+
+/* Base resets & custom animations */
+@layer base {
+  body {
+    background-color: var(--color-coffee-black);
+    color: var(--color-coffee-white);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-coffee-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-coffee-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-coffee-accent);
+}

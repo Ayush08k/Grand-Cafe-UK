@@ -1,0 +1,6 @@
+{
+  "name": "Grand Cafe UK",
+  "description": "The official responsive café and breakfast ordering application for Grand Cafe UK inside Forest House Hotel, London.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
